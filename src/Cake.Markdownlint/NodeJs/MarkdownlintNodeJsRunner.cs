@@ -3,6 +3,7 @@
     using System;
     using System.Collections.Generic;
     using System.Globalization;
+    using System.IO;
     using Cake.Core.Diagnostics;
     using Core;
     using Core.IO;
@@ -42,6 +43,12 @@
 
             var args = new ProcessArgumentBuilder();
             settings.Evaluate(args);
+
+            // Make sure directory of output file exists as otherwise markdownlint will silently fail.
+            if (settings.OutputFile != null)
+            {
+                Directory.CreateDirectory(settings.OutputFile.GetDirectory().FullPath);
+            }
 
             var processSettings = new ProcessSettings
             {
