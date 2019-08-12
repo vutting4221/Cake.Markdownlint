@@ -13,7 +13,7 @@
                 // Given
                 var fixture = new MarkdownlintNodeJsRunnerFixture
                 {
-                    Settings = null
+                    Settings = null,
                 };
 
                 // When

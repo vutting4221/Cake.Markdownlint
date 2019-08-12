@@ -4,10 +4,9 @@
     using System.Collections.Generic;
     using System.Globalization;
     using System.IO;
-    using Cake.Core.Diagnostics;
-    using Core;
-    using Core.IO;
-    using Core.Tooling;
+    using Cake.Core;
+    using Cake.Core.IO;
+    using Cake.Core.Tooling;
 
     /// <summary>
     /// A wrapper around the Markdownlint tool.
@@ -53,7 +52,7 @@
             var processSettings = new ProcessSettings
             {
                 Arguments = args.Render(),
-                RedirectStandardError = true
+                RedirectStandardError = true,
             };
 
             this.Run(

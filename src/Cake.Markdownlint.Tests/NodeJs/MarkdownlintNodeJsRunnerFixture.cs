@@ -1,7 +1,7 @@
 ﻿namespace Cake.Markdownlint.Tests.NodeJs
 {
     using Cake.Markdownlint.NodeJs;
-    using Testing.Fixtures;
+    using Cake.Testing.Fixtures;
 
     internal class MarkdownlintNodeJsRunnerFixture : ToolFixture<MarkdownlintNodeJsRunnerSettingsForDirectory>
     {

@@ -1,10 +1,10 @@
 ﻿namespace Cake.Markdownlint
 {
     using System;
+    using Cake.Core;
+    using Cake.Core.Annotations;
     using Cake.Core.IO;
-    using Core;
-    using Core.Annotations;
-    using NodeJs;
+    using Cake.Markdownlint.NodeJs;
 
     /// <summary>
     /// Provides a wrapper around Markdownlint functionality within a Cake build script.
