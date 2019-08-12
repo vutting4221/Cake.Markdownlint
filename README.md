@@ -13,9 +13,10 @@ This addin for the Cake Build Automation System allows you to run [markdownlint]
 
 ## Build Status
 
-|Develop|Master|
-|:--:|:--:|
-|[![Build status](https://ci.appveyor.com/api/projects/status/jf4fxxjmgci60arq/branch/develop?svg=true)](https://ci.appveyor.com/project/cakecontrib/cake-markdownlint/branch/develop)|[![Build status](https://ci.appveyor.com/api/projects/status/jf4fxxjmgci60arq/branch/develop?svg=true)](https://ci.appveyor.com/project/cakecontrib/cake-markdownlint/branch/master)|
+| | Develop | Master |
+|:--:|:--:|:--:|
+|AppVeyor Windows|[![Build status](https://ci.appveyor.com/api/projects/status/jf4fxxjmgci60arq/branch/develop?svg=true)](https://ci.appveyor.com/project/cakecontrib/cake-markdownlint/branch/develop)|[![Build status](https://ci.appveyor.com/api/projects/status/jf4fxxjmgci60arq/branch/master?svg=true)](https://ci.appveyor.com/project/cakecontrib/cake-markdownlint/branch/master)|
+|Azure DevOps Windows|[![Build Status](https://dev.azure.com/cake-contrib/Cake.Markdownlint/_apis/build/status/cake-contrib.Cake.Markdownlint?branchName=develop&jobName=Windows)](https://dev.azure.com/cake-contrib/Cake.Markdownlint/_build/latest?definitionId=25&branchName=develop)|[![Build Status](https://dev.azure.com/cake-contrib/Cake.Markdownlint/_apis/build/status/cake-contrib.Cake.Markdownlint?branchName=master&jobName=Windows)](https://dev.azure.com/cake-contrib/Cake.Markdownlint/_build/latest?definitionId=25&branchName=master)|
 
 ## Code Coverage
 
