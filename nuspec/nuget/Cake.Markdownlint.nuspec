@@ -14,6 +14,7 @@ This addin for Cake allows you to lint Markdown files using markdownlint.
     <projectUrl>http://cake-contrib.github.io/Cake.Markdownlint/</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/cake-contrib/graphics@a5cf0f881c390650144b2243ae551d5b9f836196/png/cake-contrib-medium.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <repository type="git" url="https://github.com/cake-contrib/Cake.Markdownlint.git"/>
     <copyright>Copyright © BBT Software AG and contributors</copyright>
     <tags>Cake Script Linting Markdown Markdownlint</tags>
     <releaseNotes>https://github.com/cake-contrib/Cake.Markdownlint/releases/tag/0.2.0</releaseNotes>
