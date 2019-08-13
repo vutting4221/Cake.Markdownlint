@@ -1,9 +1,9 @@
 ﻿namespace Cake.Markdownlint.NodeJs
 {
     using System;
-    using Core;
-    using Core.IO;
-    using Core.Tooling;
+    using Cake.Core;
+    using Cake.Core.IO;
+    using Cake.Core.Tooling;
 
     /// <summary>
     /// Settings for <see cref="MarkdownlintNodeJsRunner"/> .
